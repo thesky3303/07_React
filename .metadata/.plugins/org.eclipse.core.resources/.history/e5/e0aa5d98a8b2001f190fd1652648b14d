@@ -1,0 +1,10 @@
+package snippet;
+
+public class Snippet {
+	  <p>1. 서버로부터 응답 받은 값</p>
+	  <button onClick={getPortNumber}>통신하기</button>
+	  <ul>
+	    {message?.map((msg,idx) => <li key={idx}>{msg}</li>))}
+	  </ul>
+}
+
